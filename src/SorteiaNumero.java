@@ -27,6 +27,7 @@ public class SorteiaNumero {
                 break;
             default:
                 System.out.println("Você escolheu um numero invalido, o nível será escolhido automaticamente.");
+                intervalo = 100;
         }
 
         do {
@@ -36,7 +37,7 @@ public class SorteiaNumero {
             int valorMinimo = (valor - 1);
             int valorMaximo = (valor + 1);
 
-            System.out.println("Digite um numéro de 1 a 20: ");
+            System.out.println("Digite um numéro de acordo com o intervalo escolhido: ");
             Scanner input = new Scanner(System.in);
             int numeroDigitado = input.nextInt();
 
