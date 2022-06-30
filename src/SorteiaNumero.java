@@ -33,7 +33,6 @@ public class SorteiaNumero {
             int pontuacao = 0;
             Random numeroGerado = new Random();
             int valor = numeroGerado.nextInt(intervalo) + 1;
-            System.out.println(valor);
             int valorMinimo = (valor - 1);
             int valorMaximo = (valor + 1);
 
